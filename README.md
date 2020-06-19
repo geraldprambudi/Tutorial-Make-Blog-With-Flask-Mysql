@@ -9,7 +9,7 @@ Tutorial Make Blog With Flask and Mysql
 ```
 > python --version
 Python 3.8.1
-pip --version
+> pip --version
 pip 19.2.3
 ```
 6 Install environment virtualenv windows (Like Docker)
