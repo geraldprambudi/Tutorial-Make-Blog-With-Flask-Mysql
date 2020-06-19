@@ -24,3 +24,7 @@ Package    Version
 pip        19.2.3
 setuptools 41.2.0
 ```
+6. Exit virtualenv
+```
+deactivate
+```
