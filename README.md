@@ -15,3 +15,12 @@ windows
 example : [projectName]\Scripts\activate.bat
 virtualenv\Scripts\activate.bat
 ```
+5. Check in virtualenv
+```
+pip list --format=columns
+Result
+Package    Version
+---------- -------
+pip        19.2.3
+setuptools 41.2.0
+```
