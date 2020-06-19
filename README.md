@@ -9,7 +9,7 @@ python3
 example : python -m venv [projectName]
 python -m venv virtualenv
 ```
-4. activate virtualenv 
+4. Activate virtualenv 
 ```
 windows
 example : [projectName]\Scripts\activate.bat
