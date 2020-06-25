@@ -45,3 +45,27 @@ setuptools 41.2.0
 ```
 deactivate
 ```
+
+10. create folder app
+11. create file in folder app->__init__.py
+```
+from flask import Flask
+app = Flask(__name__)
+from app import routes
+```
+
+12. create file main.py 
+```
+from app import app
+```
+
+13. create file in folder app->routes.py
+```
+from app import app
+@app.route('/')
+@app.route('/index')
+def index():
+    return "hello world"
+```
+
+
